@@ -11,6 +11,11 @@ class User
 		$this->username = $username;
 	}
 
+	public function getUsername()
+	{
+		return $this->username;
+	}
+
 	public function setPassword($password)
 	{
 		$this->password = sha1($password);
