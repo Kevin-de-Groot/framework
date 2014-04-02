@@ -9,3 +9,9 @@ function __autoload($classname)
 		require $classfile;
 	}
 }
+
+$user = new User();
+
+$user->setUsername('Kevin de groot');
+
+echo $user->getUsername();
