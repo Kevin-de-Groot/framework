@@ -14,4 +14,6 @@ $user = new User();
 
 $user->setUsername('Kevin de groot');
 
+$user->setEmail('fakemail');
+
 echo $user->getUsername();
